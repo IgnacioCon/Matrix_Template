@@ -90,7 +90,7 @@ Matrix<T>::Matrix(int rows, int cols)
 
     for(int i=0; i<m.size();i++)
     {
-        m[i].resize(3);
+        m[i].resize(cols);
     }
 }
 
@@ -147,7 +147,7 @@ void Matrix<T>::initMatrix()
 
     for(int i=0; i<m.size();i++)
     {
-        m[i].resize(3);
+        m[i].resize(cols);
     }
 }
 
